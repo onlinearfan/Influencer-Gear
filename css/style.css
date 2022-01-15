@@ -19,6 +19,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html{
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
   color: var(--text-color);
@@ -276,12 +280,12 @@ nav li:hover > .sub-menu {
   position: relative;
 }
 .single-product .img.bg-1 {
-  background: url(../assets/images/gear.png) no-repeat center;
+  background: url(../assets/images/tripod.png) no-repeat center;
   background-size: cover;
   overflow: hidden;
 }
 .single-product .img.bg-2 {
-  background: url(../assets/images/drone.png) no-repeat center;
+  background: url(../assets/images/mic.png) no-repeat center;
   background-size: cover;
 }
 .single-product .img.bg-3 {
@@ -289,7 +293,7 @@ nav li:hover > .sub-menu {
   background-size: cover;
 }
 .single-product .img.bg-4 {
-  background: url(../assets/images/camera.png) no-repeat center;
+  background: url(../assets/images/drone.png) no-repeat center;
   background-size: cover;
 }
 .single-product .img.bg-5 {
@@ -297,19 +301,19 @@ nav li:hover > .sub-menu {
   background-size: cover;
 }
 .single-product .img.bg-6 {
-  background: url(../assets/images/single-light.png) no-repeat center;
+  background: url(../assets/images/setup.png) no-repeat center;
   background-size: cover;
 }
 .single-product .img.bg-7 {
-  background: url(../assets/images/tripod.png) no-repeat center;
+  background: url(../assets/images/gear.png) no-repeat center;
   background-size: cover;
 }
 .single-product .img.bg-8 {
-  background: url(../assets/images/main-camera.png) no-repeat center;
+  background: url(../assets/images/camera.png) no-repeat center;
   background-size: cover;
 }
 .single-product .img.bg-9 {
-  background: url(../assets/images/setup.png) no-repeat center;
+  background: url(../assets/images/single-light.png) no-repeat center;
   background-size: cover;
 }
 
